@@ -7,8 +7,8 @@ import { AuthService } from '../services/auth.service';
 export class UserDataResolver {
   constructor(private authService: AuthService) {}
 
-  resolve() {
-    console.log('Hello BVB');
-    return this.authService.getUserData();
-  }
+  // resolve() {
+  //   console.log('Hello BVB');
+  //   return this.authService.getUserData();
+  // }
 }

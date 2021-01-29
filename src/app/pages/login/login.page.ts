@@ -54,11 +54,11 @@ export class LoginPage implements OnInit {
               this.storageService
               .store(AuthConstants.AUTH, res.content[0])
               .then( r => {
-                console.log("login: "+res.content[0].role);
-                if(res.content[0].role == 'U' )
-                  this.router.navigate(['home-user/dashboard']); 
+                // console.log("login: "+res.content[0].role);
+                // if(res.content[0].role == 'U' )
+                //   this.router.navigate(['home-user/dashboard']); 
                 
-                else  
+                // else  
                   this.router.navigate(['home/dashboard']);
               });
             }
