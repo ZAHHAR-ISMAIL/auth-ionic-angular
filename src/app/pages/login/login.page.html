@@ -1,0 +1,29 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content padding='true'  style="background-color: #6960e293; background-attachment: fixed;">
+  <!-- <div class="image" style="background-image:url('assets/img/ocean-waves.jpg');"></div> -->
+  <div class="center">
+    <img src="assets/images/people.png" class="smallLogo" style=" background: transparent !important; opacity: 0.8;"/>
+  </div>
+<form>
+  <!-- <ion-list > -->
+    <ion-item color="tertiary" style="opacity: 0.9;">
+      <ion-label position="stacked">Nom d'utilisateur</ion-label>
+      <ion-input autocomplete="off" type="text" name="username"  [(ngModel)]="postData.username"></ion-input>
+    </ion-item>
+  <!-- </ion-list>  -->
+  <!-- <ion-list color="primary" style="margin-top: 10px;margin-bottom: 10px;">  -->
+    <ion-item color="tertiary" style="margin-top: 5px;margin-bottom: 10px;opacity: 0.9;">
+      <ion-label position="stacked">Mot de passe</ion-label>
+      <ion-input autocomplete="off" type="password" name="password"  [(ngModel)]="postData.password"></ion-input>
+    </ion-item>
+  <!-- </ion-list>   -->
+    
+  
+  <ion-button  expand="block" color="dark" fill="outline" (click)="loginAction2()">Connectez-vous</ion-button>
+</form>
+</ion-content>

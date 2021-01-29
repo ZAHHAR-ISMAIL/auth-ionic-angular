@@ -1,0 +1,7 @@
+{
+  "name": "BubupApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
